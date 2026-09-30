@@ -1,0 +1,14 @@
+package com.resqcloud.notification.entity;
+
+public enum NotificationType {
+    INCIDENT_CREATED,
+    INCIDENT_PRIORITIZED,
+    RESPONDER_ASSIGNED,
+    RESOURCE_ASSIGNED,
+    ASSIGNMENT_ACCEPTED,
+    ASSIGNMENT_REJECTED,
+    STATUS_CHANGED,
+    INCIDENT_RESOLVED,
+    INCIDENT_CLOSED,
+    SYSTEM_ALERT
+}
